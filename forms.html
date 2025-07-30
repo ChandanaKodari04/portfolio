@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <header>
+    <h1>Welcome to My portfolio</h1><br>
+    <div>
+        <a href="#About"><button class="button">About</button></a>
+        <a href="#Skills"><button class="button">Skills</button></a>
+        <a href="#Projects"><button class="button">Projects</button></a>
+        <a href="#Contact"><button class="button">Contact</button></a>
+
+    </div>
+   
+    </header>
+
+    <main>
+        <section id="About">
+            <h3>Chandana SVECW</h3>
+            <img src="student.jpg" alt="student photo">
+            <p>My name is chandana.im a student<br></p>
+            <p>Im currently pursuing <strong>Third b.tech</strong> in vishnu institution</p>
+            <p>my specification is <strong>Artificial Intelligence & Machine Learning</strong></p>
+            <p>This is my first website</p><br>
+
+        </section><br>
+        <section id="Skills">
+            <h3> My Skills</h3>
+            <ol>
+                <li>Java</li>
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React Js</li>
+            </ol>
+
+        </section>
+        <section id="Projects">
+            <h3>My projects</h3>
+            <table border="1">
+                <tr>
+                    <th>Projects</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>portfolio website</td>
+                    <td>I have built portfolio website by using Html,CSS,javascript</td>
+                </tr>
+                <tr>
+                    <td>Register Form</td>
+                    <td>I have buitl Register form website by using HTML,CSS, js and React JS</td>
+                </tr>
+            </table>
+        </section>
+        <section id="Contact">
+            <h3>Contact Me</h3>
+            <p>Feel free to get in touch with me using the form below</p>
+            <form>
+                <label for="Name">Name:</label>
+                <input  type="text" id="Name" placeholder="enter your name...." ><br>
+                <label for="email">Email:</label>
+                <input  type="mail" id="email" placeholder="enter your email..." ><br>
+
+                <b>choose your gender:</b>
+                <input type="radio" id="male" value="M">
+                <label for="male">Male</label>
+                <input type="radio" id="female" value="F">
+                <label for="female">Female</label><br>
+
+                <b>Select your interest:</b>
+                <input type="checkbox" id="coding" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="Reading" value="F">
+                <label for="Reading">Reading</label><br>
+
+                <label for="bio">Bio(up to 300 characters):</label>
+                <input  type="text" rows="10" cols="20">
+                <br>
+
+                <button type="submit" class="submit">submit</button>
+
+            </section>
+    </main>
+    
+    <footer>
+        <p class="para">@ 2024 My portfolio</p>
+        <img class="git" src="git.png" alt="">
+    </footer>
+</body>
+</html>
